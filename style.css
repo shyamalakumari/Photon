@@ -1,0 +1,97 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 226, 246);
+  }
+  
+  header {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.input{
+  width: 700px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-right: none;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+  border: 1px solid rgb(43, 4, 132);
+}
+.submit-btn{
+ 
+      width: 100px;
+      height: 46px;
+      margin: auto;
+      margin-left: none;
+      background-color: rgb(40, 4, 124);
+      color: white;
+      font-weight: bold;
+      border: none;
+      font-size: 15px;
+      border-radius: 5px;
+      box-shadow: 3px 3px 5px gray;
+
+}
+
+  main{
+    margin-top: 8rem;
+  }
+  
+  .gallery-info {
+    display: flex;
+    justify-content: space-between;
+     
+  }
+  .gallery-info a {
+    color: rgb(130, 122, 122);
+    text-decoration: none;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    width: 90%;
+    margin: auto;
+    gap: 3rem;
+  }
+  
+  .gallery-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .more {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(26, 26, 99);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .more-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+
+
+
+
+
+
+
+
